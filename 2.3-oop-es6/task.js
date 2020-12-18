@@ -83,8 +83,8 @@ class Library {
             if (this.books[i][type] === value) {
                 return this.books[i]
             };
-                return null;
         };
+        return null;
     };
 
     giveBookByName(bookName) {
